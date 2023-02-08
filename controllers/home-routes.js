@@ -49,3 +49,5 @@ router.get('/signup', (req, res) => {
         res.redirect('/');
     } res.render('signup')
 });
+
+module.exports = router;
